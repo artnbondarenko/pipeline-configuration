@@ -5,7 +5,8 @@ application_environments{
 }
 
 libraries{
-  merge = true 
+  merge = true
+  gradle
   sonarqube
   ansible{
     customMessage = "Hey from CDF Contributor Summit" 
